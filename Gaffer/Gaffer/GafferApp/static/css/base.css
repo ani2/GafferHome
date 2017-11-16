@@ -1,0 +1,99 @@
+#accordion { 
+	padding-top: 50px;
+	background-color: rgba(23,50,100,.7);
+	height: 100vh;
+	min-height: 420px;
+}
+
+#smallAccordion {
+	background-color: rgba(23,50,100,.7);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#mainpage {
+    padding-top: 50px;
+    background: url("../images/grass.png") center repeat;
+	height: 100vh; 
+}
+.navbar-custom{
+	position: absolute;
+	width: 100%;
+	background-color: rgba(23,50,100, 1);
+}
+
+.navbar-custom .navbar-brand {
+	color: #33aa7e;
+    font-size: 28px;
+	padding-top:0px;
+	padding-bottom:0px;
+	whitespace: nowrap;
+}
+.navbar-custom .navbar-toggler {
+	margin-right: 10px;
+}
+
+#navcollapse {
+	position: absolute;
+	width: 100%;
+	padding-top: 55px;
+	padding-bottom: 5px;
+}	
+
+/* Extra small devices (portrait phones, less than 576px)
+	No media query since this is the default in Bootstrap 
+	TODO Want to make this cause the menu to auto collapse */
+#accordion, .menu_item {
+	font-size: .5rem;
+}
+.icon {
+	width: 18px;
+	height: 18px;
+}
+#GSAlogo {
+	width: 34px;
+	height: 45px;
+}
+#navSearch {
+	width: 100px;
+}
+	
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (min-height: 500px) {
+	#accordion, .menu_item {
+		font-size: .7rem;
+	}
+	.icon {
+		width: 26px;
+		height: 26px;
+	}
+	#GSAlogo {
+		width: 42px;
+		height: 55px;
+	}
+	#navSearch {
+		width: 150px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (min-height: 610px) {
+	#accordion, .menu_item {
+		font-size: 1rem;
+	}
+	.icon {
+		width: 40px;
+		height: 40px;
+	}
+	#GSAlogo {
+		width: 57px;
+		height: 75px;
+	}
+}
+
+
+
+
