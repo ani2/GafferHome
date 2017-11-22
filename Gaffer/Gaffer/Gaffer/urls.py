@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^help/',include('GafferApp.urls')),
     url(r'^$',views.index,name='index'),
     url(r'^admin/', admin.site.urls),
+	url(r'^drill/', include('drill.urls')),
 ]

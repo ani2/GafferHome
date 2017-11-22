@@ -26,7 +26,7 @@ SECRET_KEY = 'vf=x-k=u8#2s&6opzo7dw&bpv(gi!8z54=rpp&%q&6c=&bsb&$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["10.200.58.7", "127.0.0.1"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'GafferApp',
+	'drill',
 ]
 
 MIDDLEWARE = [
